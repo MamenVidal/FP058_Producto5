@@ -107,8 +107,8 @@ public class Pedido {
     public String toString() {
         return "Pedido{" +
                 "numero=" + numero +
-                ", cliente=" + cliente +
-                ", articulo=" + articulo +
+                ", cliente=" + cliente.getEmail() +
+                ", articulo=" + articulo.getCodigo() +
                 ", cantidad=" + cantidad +
                 ", fechaHora=" + fechaHora +
                 ", enviado=" + enviado +
